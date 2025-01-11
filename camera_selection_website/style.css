@@ -1,0 +1,56 @@
+/* Last updated: 2025-01-11 20:44:36 */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  color: #333;
+  overflow-x: hidden;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+select {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#buttonRow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+#buttonRow button {
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+div[style*="position: relative"] {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+
+video, canvas {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border: 1px solid #333;
+}
